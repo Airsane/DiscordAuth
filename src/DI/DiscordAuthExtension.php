@@ -2,7 +2,7 @@
 
 namespace Airasne\DiscordAuth\DI;
 
-use App\Security\DiscordAuth;
+use Airasne\DiscordAuth\Security\DiscordAuth;
 use Nette\DI\CompilerExtension;
 
 class DiscordAuthExtension extends CompilerExtension
