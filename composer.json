@@ -1,0 +1,23 @@
+{
+    "name": "airasne/discord-auth",
+    "description": "Library for nette to use discord auth",
+    "type": "library",
+    "require": {
+        "nette/di": "^3.1",
+        "nette/http": "^3.2",
+	  "ext-curl": "*",
+	  "ext-openssl": "*"
+	},
+    "autoload": {
+        "psr-4": {
+            "Airasne\\DiscordAuth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Airsane",
+            "email": "Airsane@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
